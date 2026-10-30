@@ -1,0 +1,34 @@
+HƯỚNG DẪN ĐƯA PORTFOLIO V7 VÀO REPO HIỆN TẠI
+
+Repo đang dùng: https://github.com/Geinjr/1771020780_DoTrungKien_A22.git
+Pages dự kiến: https://geinjr.github.io/1771020780_DoTrungKien_A22/
+
+1) Sao lưu repo hiện tại nếu cần.
+2) Copy TOÀN BỘ nội dung trong thư mục A22_1771020780_DoTrungKien vào root repo hiện tại.
+3) Tạo commit theo tiến trình thật. Nếu repo của bạn đã có commit Lab 5, nên tạo ít nhất 2-3 commit mới có ý nghĩa, ví dụ:
+
+   git add index.html ket-qua.html css assets
+   git commit -m "Nang cap Portfolio v7 va sua duong dan deploy"
+
+   git add README.md AI_LOG.md RELEASE_NOTES.md CHECKLIST_KIEM_CHUNG.md MINH_CHUNG_CAI_TIEN.md minh-chung
+   git commit -m "Bo sung ho so ban giao A2.2 va minh chung"
+
+   git push
+
+4) GitHub > Settings > Pages:
+   Branch: main
+   Folder: /(root)
+
+5) Sau deploy:
+   - mở URL bằng cửa sổ ẩn danh;
+   - F12 > Network, reload;
+   - kiểm tra index.html, css/style.css, assets/*.svg;
+   - chạy: git rev-parse HEAD
+   - điền SHA vào CHECKLIST_KIEM_CHUNG.md/RELEASE_NOTES.md hoặc phiếu nộp LMS;
+   - nếu sửa file sau kiểm tra thì commit/push và kiểm tra lại URL.
+
+6) Các mục KHÔNG được ghi hoàn tất nếu chưa kiểm tra thật:
+   - SHA cuối;
+   - status Network sau deploy;
+   - commit Pages đang chạy;
+   - URL công khai cùng phiên bản.
